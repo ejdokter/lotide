@@ -12,6 +12,11 @@ const findKeyByValue = function (object, value) {
       return key
     }
   }
+  // for (const key of Object.keys(object)) {
+  //   if (object[key] == value) {
+  //     return key
+  //   }
+  // }
 }
 
 const bestTVShowsByGenre = { 
