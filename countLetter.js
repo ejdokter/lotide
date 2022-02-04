@@ -22,3 +22,5 @@ const countLetters = function (string) {
 }
 
 console.log(countLetters("this is a string"))
+
+console.log("hello")
