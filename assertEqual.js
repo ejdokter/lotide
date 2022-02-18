@@ -1,3 +1,4 @@
+// compares an actual value and an expected value and logs a pass or fail statement
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
@@ -6,4 +7,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-module.exports = assertEqual
+module.exports = assertEqual;
