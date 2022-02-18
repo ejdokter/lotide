@@ -15,7 +15,7 @@ const middle = require('./middle');
 const tail = require('./tail');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
-
+console.log(eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }))
 module.exports = {
   assertArraysEqual,
   assertEqual,

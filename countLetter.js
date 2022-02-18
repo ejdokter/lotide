@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters = function (string) {
+const countLetter = function (string) {
   let letters = {}
 
   for (const letter of string) {
@@ -21,6 +21,6 @@ const countLetters = function (string) {
   return letters
 }
 
-console.log(countLetters("this is a string"))
+console.log(countLetter("this is a string"))
 
 console.log("hello")
