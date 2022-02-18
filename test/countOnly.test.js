@@ -1,5 +1,5 @@
-const _ = require('../index')
-const assert = require('chai').assert
+const _ = require('../index');
+const assert = require('chai').assert;
 
 const firstNames = [
   "Karl",
@@ -17,15 +17,15 @@ const result = _.countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": 
 
 describe('#countOnly', () => {
   it('return 1 when given "Jason"', () => {
-    assert.deepEqual(result["Jason"], 1)
-  })
+    assert.deepEqual(result["Jason"], 1);
+  });
   it('return undefined when given "Karima"', () => {
-    assert.deepEqual(result["Karima"], undefined)
-  })
+    assert.deepEqual(result["Karima"], undefined);
+  });
   it('return 2 when given "Fang"', () => {
-    assert.deepEqual(result["Fang"], 2)
-  })
+    assert.deepEqual(result["Fang"], 2);
+  });
   it('return undefined when given "Agouhanna"', () => {
-    assert.deepEqual(result["Agouhanna"], undefined)
-  })
-})
+    assert.deepEqual(result["Agouhanna"], undefined);
+  });
+});
